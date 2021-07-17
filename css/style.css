@@ -1,0 +1,468 @@
+/* ===|| All Font Intigration  Start ||=== */
+@font-face {
+    font-family: 'Alternate Gothic No2 D';
+    src: url(../fonts/Alternate-Gothic-No2-D-Regular.ttf);
+}
+/* Alternate Gothic Intigration End */
+
+@font-face {
+    font-family: 'greycliff-cf-light';
+    src: url(../fonts/FontsFree-Net-greycliff-cf-light-1.ttf);
+}
+@font-face {
+    font-family: 'greycliff-cf-bold';
+    src: url(../fonts/FontsFree-Net-greycliff-cf-bold-1.ttf);
+}
+/* Greycliff-CF Intigration End */
+
+@font-face {
+    font-family: "Freight Neo Pro";
+    src: url(../fonts/FreightNeo-W03-Bold.ttf);
+    src: url(../fonts/FreightNeo-W03-Book.ttf);
+}
+/* Freight Neo Pro Intigration End */
+/* ===|| All Font Intigration  Start ||=== */
+
+
+/* ===|| Common CSS Start ||=== */
+body{
+    font-family: 'greycliff-cf-light';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 18px;
+    color:  #000;;
+}
+/* ===|| Common CSS End ||=== */
+
+
+/* ===|| Header CSS Start ||=== */
+header .left-head{
+    padding-bottom: 100px ;
+    height: 100%;
+    background-color: #eff0ef;
+}
+header .left-head .logo{
+    padding: 15px 0 15px 70px;
+}
+header .left-head .logo img{
+    width: 30%;
+}
+header .banner-img{
+    width: 70%;
+}
+header .right-head{
+    padding-top: 75px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    margin-left: -170px;
+}
+header .right-head h2{
+    font-family: 'greycliff-cf-bold';
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #533155;
+}
+header .right-head h1{
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #582447;
+}
+.head-par{
+    margin-top: 20px;
+}
+.head-par p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.callto-action{
+    margin-top: 20px;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: #B31119;
+}
+.callto-action a {
+    position: absolute;
+    top: -20%;
+    left: 3%;
+    display: inline-block;
+    background-color: #fff;
+    color: #B31119;
+    border: 2px solid #B31119;
+    width: 300px;
+    height: 50px;
+    padding-top: 7px;
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.callto-action a:hover{
+    top: 0;
+    left: 0;
+    background-color: #B31119;
+    color: #fff;
+}
+
+/* ===|| Header CSS End ||=== */
+
+/* ===|| Facilities CSS Start ||=== */
+.facilities{
+    padding: 50px 0 50px;
+}
+.facilities-head{
+    margin-bottom: 40px;
+}
+.facilities h1{
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 45px;
+    letter-spacing: -1px;
+    color: #582447;
+}
+.facilities h3{
+    margin-top: 10px;
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #533155;
+}
+.all-facilities{
+    margin-top: 50px;
+}
+.all-facilities .single-facilities{
+    margin-bottom: 50px;
+    padding: 50px 100px;
+    position: relative;
+    background-color: #eff0ef;
+}
+.all-facilities .single-facilities p{
+    margin-bottom: 0;
+}
+.all-facilities .single-facilities span.left-num {
+    position: absolute;
+    top: -50px;
+    font-family: "Freight Neo Pro";
+    font-size: 60px;
+    font-weight: 900;
+    color: #582447;
+}
+.all-facilities .single-facilities span.right-num {
+    position: absolute;
+    top: -50px;
+    right: 15%;
+    font-family: "Freight Neo Pro";
+    font-size: 60px;
+    font-weight: 900;
+    color: #582447;
+}
+.facilities-par{
+    padding: 0 50px 10px;
+}
+.callto-action2{
+    margin-top: 20px;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: #B31119;
+}
+.callto-action2 a {
+    position: absolute;
+    top: -20%;
+    left: 3%;
+    display: inline-block;
+    background-color: #fff;
+    color: #B31119;
+    border: 2px solid #B31119;;
+    width: 300px;
+    height: 50px;
+    padding-top: 7px;
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.callto-action2 a:hover{
+    top: 0;
+    left: 0;
+    background-color: #B31119;
+    color: #fff;
+}
+/* ===|| Facilities CSS End ||=== */
+
+
+/* ===|| Twenty One Days CSS Start ||=== */
+.twenty-one{
+    overflow: hidden;
+}
+.twentyone-color{
+    padding: 50px;
+    background-color: #B31119;
+}
+.twentyone-color .twentyone-head h1{
+    margin-bottom: 20px;
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 45px;
+    color: #fff;
+}
+.twentyone-color .twentyone-par p{
+    color: #fff;
+}
+.twentyone-img{
+    position: relative;
+}
+.twentyone-img .single-pic img{
+    margin-top: -10px;
+    width: 95%;
+}
+.twentyone-img .single-pic img.s1{
+    position: absolute;
+    right: -50%;
+    box-shadow: rgba(2, 6, 7, 0.548) 0px 1px 1px 0px, rgba(0, 0, 0, 0.541) 0px 1px 13px 0px;
+}
+.twentyone-img .single-pic img.s2{
+    margin-top: 125px;
+    position: absolute;
+    right: -90%;
+    transform: rotate(7deg);
+    box-shadow: rgba(2, 6, 7, 0.548) 0px 1px 1px 0px, rgba(0, 0, 0, 0.541) 0px 1px 13px 0px;
+}
+.twentyone-img .single-pic img.s3{
+    margin-top: 125px;
+    position: absolute;
+    right: -5%;
+    transform: rotate(-7deg);
+    box-shadow: rgba(2, 6, 7, 0.548) 0px 1px 1px 0px, rgba(0, 0, 0, 0.541) 0px 1px 13px 0px;
+}
+.twentyone-img .single-pic img.s4{
+    margin-top: 210px;
+    position: absolute;
+    right: -50%;
+    box-shadow: rgba(2, 6, 7, 0.548) 0px 1px 1px 0px, rgba(0, 0, 0, 0.541) 0px 1px 13px 0px;
+}
+
+
+/* ===|| Twenty One Days CSS End ||=== */
+
+
+/* ===|| Get Satarted CSS Start ||=== */
+.get-started{
+    margin-top: 50px;
+    padding: 0 0 50px;
+}
+.get-color{
+    background-color: #eff0ef;
+}
+.get-left {
+    padding: 65px 50px 50px;
+}
+.get-left img {
+    width: 100%;
+}
+.get-right{
+    padding: 50px 50px 50px 0;
+}
+.get-color .get-head h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 45px;
+    color: #582447;
+}
+.get-par p{
+    text-align: center;
+    color: #000;
+}
+/* ===|| Get Satarted CSS End ||=== */
+
+
+/* ===|| Testimonial & Signup CSS Start ||=== */
+.testimonial{
+    padding: 0 0 20px;
+    height: 100%;
+}
+.testimonial h1{
+    margin-bottom: 20px;
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 45px;
+    color: #582447;
+}
+.single-testimonial{
+    padding: 20px 20px 30px;
+    background-color: #B31119;
+    height: 100%;
+    border-radius: 10px;
+}
+.single-testimonial .test-img {
+    padding: 20px 100px 20px;
+}
+.single-testimonial .test-img img{
+    border-radius: 100%;
+}
+.single-testimonial .test-fed p{
+    margin: 0 0 20px;
+    font-size: 18px;
+    color: #fff;
+}
+.single-testimonial .test-fed h3{
+    font-family: "Freight Neo Pro";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #abd8d8;
+}
+.single-testimonial .test-fed h5{
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+/* Testimonial Section End */
+
+.contact-us{
+    padding: 0 0 50px;
+}
+
+.contact h1{
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 45px;
+    color: #582447;
+}
+.contact form {
+    padding: 30px 0 20px;
+}
+.contact form input{
+    margin: 0 0 20px;
+    padding: 5px 20px;
+    width: 80%;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid #B31119;
+}
+.contact form input::placeholder{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+input:focus {
+    outline: 0;
+}
+.contact .contact-btn{
+    margin-top: 20px;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: #B31119;
+}
+.contact .contact-btn a{
+    position: absolute;
+    top: -20%;
+    left: 3%;
+    display: inline-block;
+    background-color: #fff;
+    color: #B31119;
+    border: 2px solid #B31119;
+    width: 300px;
+    height: 50px;
+    padding-top: 7px;
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.contact .contact-btn a:hover{
+    top: 0;
+    left: 0;
+    background-color: #B31119;
+    color: #fff;
+}
+/* Contect Section End */
+/* ===|| Testimonial & Signup CSS End ||=== */
+
+
+/* ===|| FAQ CSS Start ||=== */
+.faq-section{
+    padding: 30px 0 50px;
+}
+.faq-head{
+    margin-bottom: 20px;
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 45px;
+}
+.faq-head h1{
+    font-family: 'Alternate Gothic No2 D';
+    font-size: 45px;
+    color: #582447;
+}
+.accordion-item{
+    border: 2px solid #533155;
+}
+.accordion-item h5{
+    margin-top: 5px;
+    font-family: "Freight Neo Pro";
+    font-size: 20px;
+    font-weight: 700;
+    color: #87172B;
+}
+.accordion-item h5 span{
+    font-family: "Freight Neo Pro";
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: #83293D;
+}
+.accordion-body p{
+    color: #000;
+    font-family: 'greycliff-cf-light';
+    font-size: 18px;
+}
+.accordion-button {
+    background-color: #eff0ef;
+}
+/* ===|| FAQ CSS End ||=== */
+
+
+/* ===|| Footer CSS Start ||=== */
+footer{
+    padding: 50px 0;
+    background-color: #B31119;
+}
+footer .footer-left h5{
+    font-family: "Freight Neo Pro";
+    font-style: italic;
+    color: #d0e6e6;
+} 
+footer .footer-right ul {
+    margin-bottom: 0;
+    text-align: right;
+} 
+footer .footer-right ul li{
+    margin-left: 30px;
+    display: inline-block;
+} 
+footer .footer-right ul li a{
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+} 
+/* ===|| Footer CSS End ||=== */

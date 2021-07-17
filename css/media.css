@@ -1,0 +1,697 @@
+  
+/* Extra Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    h1 {
+        font-size: 30px !important;
+        line-height: 35px !important;
+    }
+    p{
+        font-size: 16px !important;
+        line-height:25px !important;
+    }
+
+    /* Header CSS Start */
+    header .left-head {
+        padding-bottom: 30px  !important;
+    }
+    header .right-head {
+        margin-left: 0 !important;
+        padding: 30px 20px 0 !important;
+    }
+    header .left-head .logo img {
+        width: 35% !important;
+    }
+    header .left-head .logo {
+        padding: 25px 0 15px 30px !important;
+    }
+    
+    header .banner-img {
+        width: 100% !important;
+        padding: 0 30px !important;
+    }
+
+    .head-par p {
+        font-size: 16px !important;
+    }
+    header .right-head h2 {
+        font-size: 16px !important;
+    }
+    .callto-action {
+        top: -10% !important;
+        left: 2% !important;
+        width: 200px !important;
+        height: 35px !important;
+        padding-top: 3px !important;
+        font-size: 18px !important;
+    }
+    .callto-action a {
+        top: -10% !important;
+        left: 2% !important;
+        width: 200px !important;
+        height: 35px !important;
+        padding-top: 3px !important;
+        font-size: 18px !important;
+    }
+    .callto-action a:hover{
+        top: 0 !important;
+        left: 0 !important;
+    }
+
+    /*Brand CSS Start */
+    .brand .single-brand {
+        padding: 0 20px  !important;
+    }
+
+    /* Facilities CSS Start */
+    .facilities {
+        padding: 30px 0  !important;
+    }
+    .facilities h3 {
+        font-size: 22px !important;
+    }
+    .all-facilities .single-facilities {
+        margin-bottom: 25px !important;
+        padding: 30px !important;
+    }
+    .all-facilities .single-facilities span.right-num {
+        right: 10% !important;
+    }
+    .all-facilities .single-facilities span.left-num {
+        top: -38px !important;
+        font-size: 45px !important;
+    }
+    .all-facilities .single-facilities span.right-num {
+        top: -38px !important;
+        font-size: 45px !important;
+    }
+    .facilities-par {
+        padding: 0 10px 10px !important;
+    }
+    .callto-action2 {
+        margin-top: 10px !important;
+        width: 200px !important;
+        height: 35px !important;
+    }
+    .callto-action2 a {
+        top: -10% !important;
+        left: 2% !important;
+        width: 200px !important;
+        height: 35px !important;
+        padding-top: 3px !important;
+        font-size: 18px !important;
+    }
+    .callto-action2 a:hover {
+        top: 0 !important;
+        left: 0 !important;
+    }
+
+    /* Twenty One Start */
+
+    .twentyone-color {
+        padding: 30px !important;
+    }
+    .twentyone-color .twentyone-img {
+        margin-top: 10px !important;
+        text-align: center !important;
+    }
+    .twentyone-color .twentyone-img .single-pic{
+        margin-bottom: 15px;
+        margin-right: 10px;
+        width: 46%;
+        display: inline-block;
+    }
+    .twentyone-color .twentyone-img .single-pic:nth-child(2){
+        margin-right: 0;
+    }
+    .twentyone-color .twentyone-img .single-pic:nth-child(4){
+        margin-right: 0;
+    }
+    .twentyone-color {
+        padding: 40px !important;
+    }
+    .twentyone-img .single-pic img.s1{
+        margin-top: 0 !important;
+        position:inherit !important;
+        transform: rotate(0) !important;
+    }
+    .twentyone-img .single-pic img.s2{
+        margin-top: 0 !important;
+        position:inherit !important;
+        transform: rotate(0) !important;
+    }
+    .twentyone-img .single-pic img.s3{
+        margin-top: 0 !important;
+        position:inherit !important;
+        transform: rotate(0) !important;
+    }
+    .twentyone-img .single-pic img.s4{
+        margin-top: 0 !important;
+        position:inherit !important;
+        transform: rotate(0) !important;
+    }
+    .smxs-none{
+        display: none !important;
+    }
+    /* Get CSS Start */
+    .get-started {
+        padding: 0 !important;
+    }
+    .get-left {
+        padding-top: 30px !important;
+        text-align: center !important;
+    }
+    .get-left img {
+        margin-left: 0 !important;
+        width: 70% !important;
+
+    }
+    .get-right {
+        padding:  0 30px 30px !important;
+    }
+
+    /* Testimonial CSS Start */
+    .testimonial {
+        margin-bottom: 0 !important;
+        padding: 30px 30px 0 !important;
+        height: inherit !important;
+    }
+    .mar-bot{
+        margin-bottom: 15px !important;
+    }
+    .single-testimonial .test-img {
+       padding: 0 40% !important;
+    }
+    .single-testimonial .test-img img{
+        width: 100px !important;
+    }
+
+    /* Contact CSS Start */
+    .contact-us {
+        padding: 0 !important;
+    }
+    .contact{
+        padding: 30px !important;
+    }
+    .contact form {
+        padding: 20px 0 20px !important;
+    }
+    .contact form input {
+        height: 33px !important;
+    }
+    .contact .contact-btn{
+        margin-top: 10px !important;
+        width: 200px !important;
+        height: 35px !important;
+    }
+    .contact .contact-btn a{
+        top: -10% !important;
+        left: 2% !important;
+        width: 200px !important;
+        height: 35px !important;
+        padding-top: 3px !important;
+        font-size: 18px !important;
+    }
+
+    /* FAQ CSS Start */
+    .faq-section {
+        padding:30px 0 0 !important;
+    }
+    .accordion-item h5 {
+        font-size: 17px !important;
+    }
+    .accordion-item h5 span {
+        font-size: 20px !important;
+    }
+    .accordion-body p {
+        font-size: 16px !important;
+    }
+
+    /* Footer CSS Start */
+    .footer-left{
+        margin-bottom: 15px;
+        text-align: center !important;
+    }
+    .footer-right ul{
+        padding-left: 0 !important;
+        text-align: center !important;
+    }
+    .footer-right ul li:first-child{
+        margin-left: 0 !important;
+    }
+
+ }
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)  { 
+
+    h1 {
+        font-size: 35px !important;
+        line-height: 40px !important;
+    }
+    p{
+        font-size: 16px !important;
+        line-height:25px !important;
+    }
+
+    /* Header CSS Start */
+    header .left-head {
+        padding-bottom: 50px  !important;
+    }
+    header .right-head {
+        margin-left: 0 !important;
+        padding: 50px 30px 0 !important;
+    }
+    header .left-head .logo img {
+        width: 35% !important;
+    }
+    header .left-head .logo {
+        padding: 25px 0 15px 30px !important;
+    }
+    header .banner-img {
+        width: 100% !important;
+        padding: 0 30px !important;
+    }
+    .head-par p {
+        font-size: 16px !important;
+    }
+    header .right-head h2 {
+        font-size: 16px !important;
+    }
+    .callto-action {
+        margin-top: 20px !important;
+        width: 250px !important;
+        height: 40px !important;
+    }
+    .callto-action a {
+        top: -10% !important;
+        left: 2% !important;
+        width:250px !important;
+        height: 40px !important;
+        padding-top: 5px !important; 
+        font-size: 20px !important;
+    }
+    .callto-action a:hover{
+        top: 0 !important;
+        left: 0 !important;
+    }
+
+    /*Brand CSS Start */
+    .brand .single-brand {
+        padding: 0 40px  !important;
+    }
+
+    /* Facilities CSS Start */
+    .facilities {
+        padding: 50px 0  !important;
+    }
+    .all-facilities .single-facilities {
+        margin-bottom: 35px !important;
+        padding: 35px 35px !important;
+    }
+    .all-facilities .single-facilities span.right-num {
+        right: 10% !important;
+    }
+    .all-facilities .single-facilities span.left-num {
+        top: -42px !important;
+        font-size: 50px !important;
+    }
+    .all-facilities .single-facilities span.right-num {
+        top: -42px !important;
+        font-size: 50px !important;
+    }
+    .callto-action2 {
+        margin-top: 20px !important;
+        width: 250px !important;
+        height: 40px !important;
+    }
+    .callto-action2 a {
+        top: -10% !important;
+        left: 2% !important;
+        width:250px !important;
+        height: 40px !important;
+        padding-top: 5px !important; 
+        font-size: 20px !important;
+    }
+    .callto-action2 a:hover {
+        top: 0 !important;
+        left: 0 !important;
+    }
+
+    /* Twenty One Start */
+    .twentyone-color .twentyone-img{
+        margin-top: 10px !important;
+        text-align: center !important;
+    }
+    .twentyone-color .twentyone-img .single-pic{
+        margin-bottom: 15px;
+        margin-right: 10px;
+        width: 48.4%;
+        display: inline-block;
+    }
+    .twentyone-color .twentyone-img .single-pic:nth-child(2){
+        margin-right: 0;
+    }
+    .twentyone-color .twentyone-img .single-pic:nth-child(4){
+        margin-right: 0;
+    }
+    .twentyone-color {
+        padding: 40px !important;
+    }
+    .twentyone-img .single-pic img.s1{
+        margin-top: 0 !important;
+        position:inherit !important;
+        transform: rotate(0) !important;
+    }
+    .twentyone-img .single-pic img.s2{
+        margin-top: 0 !important;
+        position:inherit !important;
+        transform: rotate(0) !important;
+    }
+    .twentyone-img .single-pic img.s3{
+        margin-top: 0 !important;
+        position:inherit !important;
+        transform: rotate(0) !important;
+    }
+    .twentyone-img .single-pic img.s4{
+        margin-top: 0 !important;
+        position:inherit !important;
+        transform: rotate(0) !important;
+    }
+    .smxs-none{
+        display: none !important;
+    }
+    /* Get CSS Start */
+    .get-left {
+        padding-top: 50px !important;
+        text-align: center !important;
+    }
+    .get-left img {
+        margin-left: 0 !important;
+        width: 80% !important;
+
+    }
+    .get-right {
+        padding: 0 30px 30px!important;
+    }
+
+    /* Testimonial CSS Start */
+    .testimonial {
+        margin-bottom: 30px !important;
+        height: inherit !important;
+    }
+    .mar-bot{
+        margin-bottom: 15px !important;
+    }
+    .contact{
+        padding-top: 50px;
+    }
+    .contact form {
+        padding: 20px 0 20px !important;
+    }
+    .contact .contact-btn{
+        margin-top: 10px !important;
+        width: 250px !important;
+        height: 40px !important;
+    }
+    .contact .contact-btn a{
+        top: -10% !important;
+        left: 2% !important;
+        width: 250px !important;
+        height: 40px !important;
+        padding-top: 5px !important;
+        font-size: 20px !important;
+    }
+
+    /* FAQ CSS Start */
+    .faq-section {
+        padding: 0 0 0 !important;
+    }
+    .accordion-item h5 {
+        font-size: 17px !important;
+    }
+    .accordion-item h5 span {
+        font-size: 20px !important;
+    }
+    .accordion-body p {
+        font-size: 16px !important;
+    }
+
+    /* Footer CSS Start */
+    .footer-left{
+        margin-bottom: 15px;
+        text-align: center !important;
+    }
+    .footer-right ul{
+        padding-left: 0 !important;
+        text-align: center !important;
+    }
+    .footer-right ul li:first-child{
+        margin-left: 0 !important;
+    }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    h1 {
+        font-size: 38px !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
+
+    /* Header CSS Start */
+    header .left-head .logo {
+        padding: 25px 0 15px 70px !important;
+    }
+    header .left-head .logo img {
+        width: 27% !important;
+    }
+    header .left-head .banner-img img{
+        height: 450px;
+    }
+    header .right-head {
+        margin-left: -160px !important;
+    }
+    header .right-head h2 {
+        font-size: 16px !important;
+    }
+    .head-par p {
+        font-size: 16px !important;
+    }
+    .callto-action {
+        margin-top: 20px !important;
+        width: 250px !important;
+        height: 40px !important;
+    }
+    .callto-action a {
+        top: -10% !important;
+        left: 2% !important;
+        width:250px !important;
+        height: 40px !important;
+        padding-top: 5px !important; 
+        font-size: 20px !important;
+    }
+    .callto-action a:hover{
+        top: 0 !important;
+        left: 0 !important;
+    }
+    /*Brand CSS Start */
+    .brand .single-brand {
+        padding: 25px !important;
+    }
+
+    /* Facilities CSS Start */
+    .all-facilities .single-facilities span.left-num {
+        top: -42px !important;
+        font-size: 50px !important;
+    }
+    .all-facilities .single-facilities span.right-num {
+        top: -42px !important;
+        font-size: 50px !important;
+    }
+    .all-facilities .single-facilities {
+        padding: 50px 50px !important;
+    }
+    .callto-action2 {
+        margin-top: 20px !important;
+        width: 250px !important;
+        height: 40px !important;
+    }
+    .callto-action2 a {
+        top: -10% !important;
+        left: 2% !important;
+        width: 250px !important;
+        height: 40px !important;
+        padding-top: 5px !important;
+        font-size: 20px !important;
+    }
+    .callto-action2 a:hover {
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .all-facilities .single-facilities {
+        margin-bottom: 40px !important;
+    }
+    /* Twenty One Days CSS Start */
+    .twentyone-img .single-pic{
+        margin-top: 160px !important;
+    }
+    .twentyone-img .single-pic img{
+        width: 80% !important;
+    }
+    .twentyone-img .single-pic img.s1{
+        right: -29% !important;
+    }
+    .twentyone-img .single-pic img.s2{
+        right: -65% !important;
+    }
+    .twentyone-img .single-pic img.s3{
+        right: 10% !important;
+    }
+    .twentyone-img .single-pic img.s4{
+        right: -29% !important;
+    }
+    .other-none{
+        display: none !important;
+    }
+    /* Get CSS Start */
+    .get-left {
+        padding-top: 50px !important;
+    }
+    .get-left img {
+        width: 100%;
+    }
+    .get-right {
+        padding: 50px 0 50px 0 !important;
+    }
+
+    /* Testimonial Start */
+    .mar-bot{
+        margin-bottom: 30px !important;
+    }
+    
+    .single-testimonial .test-img {
+        padding: 0 50px !important;
+    }
+    .single-testimonial .test-fed p {
+        margin-top: 20px !important;
+        font-size: 16px !important;
+    }
+
+
+    /* Contact CSS Start */
+    .contact-us {
+        padding: 0 0 30px !important;
+    }
+    .contact form input {
+        width: 100% !important;
+    }
+    .contact .contact-btn{
+        margin-top: 20px !important;
+        width: 250px !important;
+        height: 40px !important;
+    }
+    .contact .contact-btn a{
+        top: -10% !important;
+        left: 2% !important;
+        width: 250px !important;
+        height: 40px !important;
+        padding-top: 5px !important;
+        font-size: 20px !important;
+    }
+    
+    /* FAQ CSS Start */
+    .accordion-item h5 {
+        font-size: 17px !important;
+    }
+    .accordion-item h5 span {
+        font-size: 20px !important;
+    }
+    .accordion-body p {
+        font-size: 16px !important;
+    }
+
+    /* Footer CSS Start */
+    footer .footer-right ul li {
+        margin-left: 24px !important;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    header .left-head .logo {
+        padding: 25px 0 15px 70px !important;
+    }
+    header .left-head .logo img {
+        width: 27% !important;
+    }
+    header .left-head .banner-img img{
+        height: 450px;
+    }
+    header .right-head {
+        margin-left: -205px !important;
+    }
+    /* Header CSS End */
+    .twentyone-img .single-pic{
+        margin-top: 70px !important;
+    }
+    .twentyone-img .single-pic img{
+        width: 90% !important;
+    }
+    .twentyone-img .single-pic img.s1{
+        right: -29% !important;
+    }
+    .twentyone-img .single-pic img.s2{
+        right: -70% !important;
+    }
+    .twentyone-img .single-pic img.s3{
+        right: 15% !important;
+    }
+    .twentyone-img .single-pic img.s4{
+        right: -29% !important;
+    }
+    .other-none{
+        display: none !important;
+    }
+    /* Twenty One Days CSS End */
+    .get-left {
+        padding-top: 120px !important;
+    }
+        /* Get CSS End */
+    .contact-us{
+        padding: 10px 0 30px !important;
+    }
+
+    /* Contact CSS End */
+
+    /* Testimonial CSS Start */
+    .single-testimonial .test-img {
+        padding: 0 70px !important;
+    }
+    .single-testimonial .test-fed p {
+        margin-top: 20px !important;
+        font-size: 16px !important;
+    }
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .other-none{
+        display: none !important;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .other-none{
+        display: none !important;
+    }
+ }
